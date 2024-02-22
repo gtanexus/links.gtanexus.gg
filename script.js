@@ -10,3 +10,5 @@ function connectToFiveM() {
         window.location.href = 'https://gtanexus.gg/';
     }, 2000);
 }
+
+document.oncontextmenu = function(){return false} // Deshabilitar el click derecho
