@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3c3c54; /* Utilizando otro tono principal de la paleta */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    cursor:url("img/flamenco.png"), auto;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo-container img {
+    max-width: 300px; /* Ajusta el tamaño del logo según necesites */
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 150px; /* Tamaño fijo para los botones sociales */
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 20px; /* Esquinas redondeadas */
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #da3d82; /* Color de fondo de los botones */
+    border: 2px solid #ffffff; /* Borde blanco */
+    cursor:url("img/flamenco.png"), auto;
+}
+
+.social-links a:hover {
+    background-color: #6b234d; /* Cambio de color al pasar el ratón */
+}
+
+#fivem-link {
+    margin-top: 20px;
+}
+
+#fivem-link button {
+    width: 100%; /* Ancho igual al contenedor */
+    margin-top: 20px;
+    padding: 15px 0;
+    border-radius: 20px; /* Esquinas redondeadas */
+    background-color: #6c6c7c; /* Color de fondo del botón de FiveM */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #ffffff; /* Borde blanco */
+    cursor:url("img/flamenco.png"), auto;
+}
+
+#fivem-link button:hover {
+    background-color: #431b3b; /* Cambio de color al pasar el ratón */
+}
+
+#fivem-link .botFivem {
+    background-color: #fc944488; /* Cambia el color de fondo del botón */
+}
+
+.botFivem img.icono {
+    width: 25px; /* Ancho del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+.botFivem {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
