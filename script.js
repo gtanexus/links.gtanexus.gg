@@ -18,14 +18,15 @@ document.oncontextmenu = function(){return false} // Deshabilitar el click derec
 
 document.addEventListener('DOMContentLoaded', function() {
     const wallpapers = [
-        //'styles/img/wallpapers/1.jpg',
+        'styles/img/wallpapers/1.jpg',
         'styles/img/wallpapers/2.jpg',
         'styles/img/wallpapers/3.jpg',
         'styles/img/wallpapers/4.png',
         'styles/img/wallpapers/5.jpg',
         'styles/img/wallpapers/6.jpg',
         'styles/img/wallpapers/7.jpg',
-        'styles/img/wallpapers/8.jpg'
+        'styles/img/wallpapers/8.jpg',
+        'styles/img/wallpapers/9.jpg'
     ];
 
     // Precargar imágenes
@@ -34,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         img.src = src;
     });
 
-    let currentWallpaperIndex = 1;
+    let currentWallpaperIndex = 0;
 
     function changeBackground() {
         document.body.style.backgroundImage = `url('${wallpapers[currentWallpaperIndex]}')`;
@@ -42,5 +43,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Cambiar el fondo cada 3 segundos
-    setInterval(changeBackground, 3000);
+    setInterval(changeBackground, 6000);
 });
