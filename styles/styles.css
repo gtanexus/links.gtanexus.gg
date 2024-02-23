@@ -85,3 +85,22 @@ body {
     align-items: center; /* Centra verticalmente el contenido */
     justify-content: center; /* Centra horizontalmente el contenido */
 }
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .social-links a {
+        width: calc(33.33% - 20px); /* Ajustar el ancho de los botones de redes sociales */
+        margin: 10px;
+    }
+
+    #fivem-link {
+        display: none; /* Ocultar el botón para conectarse al servidor en dispositivos móviles */
+    }
+}
