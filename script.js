@@ -1,6 +1,6 @@
 function connectToFiveM() {
     // URL del servidor FiveM al que te quieres conectar
-    const serverUrl = 'fivem://connect/play.gtanexus.gg';
+    const serverUrl = 'fivem://connect/cfx.re/join/ogoldv';
 
     // Intentar abrir el enlace
     window.location.href = serverUrl;
